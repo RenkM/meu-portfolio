@@ -1,0 +1,57 @@
+/*Configuração das divisoes do cabeçalho*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 1vw;
+}
+
+/*Configuração da logo*/
+#logo_imagem {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-color: #F5f4f4;
+    border-radius: 50vw;
+    margin: 1.5vw 0.75vw;
+    box-shadow: 0.1vw 0.2vw 0.3vw rgba(35, 35, 35, 0.5)
+}
+
+/*Configuração dos botões*/
+.btn {
+    width: 12vw;
+    height: 3vw;
+    border: none;
+    border-radius: 20vw;
+    margin: 0 0.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0.1vw 0.2vw 0.3vw rgba(35, 35, 35, 0.5);
+}
+
+.btn h4,
+.btn i{
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    color: #FFFFFF;
+}
+
+#btn_home {
+    background-color: #f14598;
+}
+
+#btn_formacao {
+    background-color: #26b2da;
+}
+
+#btn_projetos {
+    background-color: #f2ba57;
+}

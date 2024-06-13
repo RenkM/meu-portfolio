@@ -1,0 +1,10 @@
+@import url(header.css);
+@import url(section.css);
+
+body{
+    background-color: #000000;
+}
+
+p, h1, h2 {
+    color: white;
+}
