@@ -14,6 +14,12 @@ header div {
     margin: 0 1vw;
 }
 
+#btn_home,
+#btn_formacao,
+#btn_projetos {
+    font-family: 'fontP';
+}
+
 /*Configuração da logo*/
 #logo_imagem {
     width: 5.5vw;
@@ -30,6 +36,7 @@ header div {
     height: 3vw;
     border: none;
     border-radius: 20vw;
+    padding: 0;
     margin: 0 0.5vw;
     display: flex;
     justify-content: space-between;
@@ -38,10 +45,10 @@ header div {
 }
 
 .btn h4,
-.btn i{
+.btn i {
     font-size: 1.2vw;
     margin-left: 1vw;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 #btn_home {
@@ -54,4 +61,43 @@ header div {
 
 #btn_projetos {
     background-color: #f2ba57;
+}
+
+@media (max-width: 425px) {
+
+    /*Telas menores do que 425px rodam esse codigo*/
+    #btns_header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 10vw;
+        height: 10vw;
+        margin: 1vw;
+        justify-content: center;
+    }
+
+    .btn h4 {
+        display: none;
+    }
+
+    .btn i {
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    #logo_imagem {
+        display: none;
+    }
+
+    #proficao {
+        font-size: 7vw;
+        text-align: end;
+    }
+
+    header {
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
 }

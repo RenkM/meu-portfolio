@@ -1,8 +1,18 @@
 @import url(header.css);
 @import url(section.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: 'fontP';
+    src: url(/assets/fonts/Oswald-VariableFont_wght.ttf);
+}
 
 body{
-    background-color: #000000;
+    background-color: black;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'fontP';
 }
 
 p, h1, h2 {
