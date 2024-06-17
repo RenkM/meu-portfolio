@@ -24,7 +24,7 @@ header div {
 #logo_imagem {
     width: 5.5vw;
     height: 5.5vw;
-    background-color: #F5f4f4;
+    background-color: transparent;
     border-radius: 50vw;
     margin: 1.5vw 0.75vw;
     box-shadow: 0.1vw 0.2vw 0.3vw rgba(35, 35, 35, 0.5)
@@ -52,15 +52,15 @@ header div {
 }
 
 #btn_home {
-    background-color: #f14598;
+    background-color: #59beec; 
 }
 
 #btn_formacao {
-    background-color: #26b2da;
+    background-color: #194ff0;
 }
 
 #btn_projetos {
-    background-color: #f2ba57;
+    background-color: #f465e3;
 }
 
 @media (max-width: 425px) {

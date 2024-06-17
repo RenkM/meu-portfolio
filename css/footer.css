@@ -4,7 +4,8 @@ footer{
     bottom: 0;
     display: flex;
     flex-direction: row;
-    justify-content: right; /* direção dos elementos filhos */
+    justify-content: right;
+    align-items: baseline; /* direção dos elementos filhos */
 }
 footer button{
     border: 0;
@@ -14,11 +15,29 @@ footer button{
 footer i{
     font-size: 2vw;
     color: white;
-    margin: 0.1vw;
+    margin: 0.1vw; 
+    transition: all 850ms ease-out;
+}
+
+#btn_discord i:hover{
+    font-size: 3vw;
+}
+
+#btn_github i:hover{
+    font-size: 3vw;
+}
+
+#btn_linkedin i:hover{
+    font-size: 3vw;
+}
+
+#btn_insta i:hover{
+    font-size: 3vw;
 }
 
 @media (max-width: 425px){
-}
-footer{
-    justify-content: center;
+    footer{
+        justify-content: center;
+    
+    }
 }
