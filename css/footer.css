@@ -16,7 +16,7 @@ footer i{
     font-size: 2vw;
     color: white;
     margin: 0.1vw; 
-    transition: all 850ms ease-out;
+    transition: all 550ms ease-out;
 }
 
 #btn_discord i:hover{
@@ -38,6 +38,9 @@ footer i{
 @media (max-width: 425px){
     footer{
         justify-content: center;
-    
+    }
+    footer i{
+        font-size: 10vw;
+        justify-content: center;
     }
 }

@@ -31,8 +31,9 @@
 
 @media (max-width: 425px){
     #p_imagem{
-        width: 200vw;
-        left: -50vw;
+        height: 150vw;
+        width: 150vw;
+        left: -20vw;
         top: 25vw;
     }
     #nome{
@@ -48,7 +49,7 @@
         width: 90vw;
         font-size: 5vw;
         right: 5vw;
-        top: 100vw;
+        top: 120vw;
     }
     
 }
