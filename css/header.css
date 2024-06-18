@@ -20,6 +20,21 @@ header div {
     font-family: 'fontP';
 }
 
+#btn_home:hover {
+    width: 9vw;
+    transition: all 1000ms ease-out;
+}
+
+#btn_formacao:hover {
+    width: 9vw;
+    transition: all 1000ms ease-out; 
+}
+
+#btn_projetos:hover {
+    width: 9vw;
+    transition: all 1000ms ease-out;  
+}
+
 /*Configuração da logo*/
 #logo_imagem {
     width: 5.5vw;
@@ -52,7 +67,7 @@ header div {
 }
 
 #btn_home {
-    background-color: #59beec; 
+    background-color: #59beec;
 }
 
 #btn_formacao {
