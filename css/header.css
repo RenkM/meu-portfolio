@@ -20,19 +20,19 @@ header div {
     font-family: 'fontP';
 }
 
-#btn_home:hover {
-    width: 9vw;
-    transition: all 1000ms ease-out;
+#btn_home:hover{
+    width: 10vw;
+    transition: all 550ms ease-out;
 }
 
-#btn_formacao:hover {
-    width: 9vw;
-    transition: all 1000ms ease-out; 
+#btn_formacao:hover{
+    width: 10vw;
+    transition: all 550ms ease-out;
 }
 
-#btn_projetos:hover {
-    width: 9vw;
-    transition: all 1000ms ease-out;  
+#btn_projetos:hover{
+    width: 10vw;
+    transition: all 550ms ease-out;
 }
 
 /*Configuração da logo*/
