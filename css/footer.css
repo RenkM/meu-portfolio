@@ -20,18 +20,22 @@ footer i{
 }
 
 #btn_discord i:hover{
+    cursor: pointer;
     font-size: 3vw;
 }
 
 #btn_github i:hover{
+    cursor: pointer;
     font-size: 3vw;
 }
 
 #btn_linkedin i:hover{
+    cursor: pointer;
     font-size: 3vw;
 }
 
 #btn_insta i:hover{
+    cursor: pointer;
     font-size: 3vw;
 }
 

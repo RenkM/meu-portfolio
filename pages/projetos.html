@@ -5,17 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus Renk</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/projetos.css">
     <script src="https://kit.fontawesome.com/0608d58633.js" crossorigin="anonymous"></script>
-    <script src="/js/index.js"></script>
+    <script src="/js/projetos.js"></script>
 </head>
 
 <body>
-    <style>
-        body {
-            background-image: url(/assets/imgs/cyberpunk.png);
-        }
-    </style>
     <header>
         <div id="logo_text">
             <img id="logo_imagem" src="/assets/imgs/gatto.png">
@@ -24,7 +19,7 @@
             </h1>
         </div>
         <div id="btns_header">
-            <button id="btn_home" class="btn" onclick="window.location.href='index.html'">
+            <button id="btn_home" class="btn" onclick="window.location.href='../index.html'">
                 <h4>HOME</h4>
                 <i class="fa-solid fa-house"></i>
             </button>
@@ -38,14 +33,23 @@
             </button>
         </div>
     </header>
-    <section>
-        <img id="p_imagem" src="/assets/imgs/img1.jpg" alt="nao sei o dono">
-        <div id="textos_principais">
-            <h1 id="nome">MATHEUS</h1>
-            <h2 id="sobrenome">RENK</h2>
-            <p id="sobre_mim">Sou um aluno de programação que atualmente está cursando Desenvolvimento Web no SENAC-FB.</p>
-        </div>
-    </section>
+
+        <nav id="banner">
+            <div id="banner1"></div>
+            <div id="banner2"></div>
+            <div id="banner3"></div>
+            <div id="banner4"></div>
+            <div id="banner5"></div>
+            </nav>
+            <nav id="btns">
+                <div id="btn_1" onclick="trocaBanner(1)"></div>
+                <div id="btn_2" onclick="trocaBanner(2)"></div>
+                <div id="btn_3" onclick="trocaBanner(3)"></div>
+                <div id="btn_4" onclick="trocaBanner(4)"></div>
+                <div id="btn_5" onclick="trocaBanner(5)"></div>
+        </nav>
+
+
     <footer>
         <button id="btn_github" onclick="window.location.href='https://github.com/RenkM'"><i
                 class="fa-brands fa-github"></i></button>
@@ -56,6 +60,6 @@
         <button id="btn_discord" onclick="window.location.href='https://discord.com/users/274553743456993281'"><i
                 class="fa-brands fa-discord"></i></button>
     </footer>
+    
 </body>
-
 </html>

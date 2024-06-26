@@ -1,7 +1,7 @@
 #p_imagem {
     width: 35vw;
     height: auto;
-    position: absolute;
+  position: absolute;
     top: 10vw;
     left: 15vw;
     border-radius: 60% 40% 78% 22% / 26% 61% 39% 74% ;
@@ -17,14 +17,14 @@
 
 #sobrenome{
     font-size: 7vw;
-    position: absolute;
+  position: absolute;
     top: 17vw;
     right: 17vw;
 }
 
 #sobre_mim{
     font-size: 1.3vw;
-    position: absolute;
+  position: absolute;
     top: 33vw;
     right: 2.8vw;
 }
