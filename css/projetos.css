@@ -3,6 +3,7 @@
 @import url(footer.css);
 @import url(fonts.css);
 @import url(banner.css);
+@import url(lista_cards.css);
 
 body{
   background-image: url(/assets/imgs/cyberpunk.png);

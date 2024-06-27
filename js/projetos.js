@@ -1,3 +1,5 @@
+
+
 let bannerAtual = 1;
 const totalBanners = 5;
 let intervaloTroca;
@@ -22,16 +24,16 @@ function autoTrocaBanner() {
 }
 
 function startAutoSwap() {
-    intervaloTroca = setInterval(autoTrocaBanner, 3000); // Troca a cada 3 segundos
+    intervaloTroca = setInterval(autoTrocaBanner, 3000); 
 }
 
 function manualTrocaBanner(numero) {
     clearInterval(intervaloTroca);
     trocaBanner(numero);
-    setTimeout(startAutoSwap, 5000); // Reinicia o auto swap após 5 segundos
+    setTimeout(startAutoSwap, 5000); 
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    trocaBanner(bannerAtual); // Inicializa o banner
-    startAutoSwap(); // Inicia a troca automática
-});
+    trocaBanner(bannerAtual); 
+    startAutoSwap();
+})

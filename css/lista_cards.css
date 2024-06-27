@@ -1,0 +1,12 @@
+#cards_projetos{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 19vw 19vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 19vw;
+    height: 10vw;
+    background-color: red;
+}
