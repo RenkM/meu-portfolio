@@ -37,3 +37,19 @@ document.addEventListener("DOMContentLoaded", function() {
     trocaBanner(bannerAtual); 
     startAutoSwap();
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    var btns = document.querySelectorAll('#btns div');
+
+    btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            // Remove 'selected' class from all buttons
+            btns.forEach(function(btn) {
+                btn.classList.remove('selected');
+            });
+
+            // Add 'selected' class to the clicked button
+            this.classList.add('selected');
+        });
+    });
+});
