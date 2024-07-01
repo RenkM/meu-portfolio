@@ -1,12 +1,14 @@
 #cards_projetos{
     width: 100vw;
     display: grid;
-    grid-template-columns: 19vw 19vw 19vw 19vw 19vw;
     justify-content: space-around;
-    align-items: center;
+    grid-template-columns: 19vw 19vw 19vw;
+    grid-template-rows: 12vw 12vw 12vw;
+    grid-gap: 1vw;
 }
 .card{
-    width: 19vw;
+    width: 20vw;
     height: 10vw;
     background-color: red;
+    margin-top: 25vw;
 }
